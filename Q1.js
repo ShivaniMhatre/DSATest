@@ -15,3 +15,5 @@ function array(num,target) {
 }
 
 console.log(array(num,target));
+
+

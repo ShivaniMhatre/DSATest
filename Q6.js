@@ -1,9 +1,10 @@
-let array=[1,2,2,3,4,5,5,6,7,8,8];
+let array=[0,0,1,1,2,2,3,3,4];
 
 function removeDuplicate(array){
-    for(let i=0;i<array.length;i++){
+    for(let i=0;i<array.length-1;i++){
         if(array[i]===array[i+1]){
             array.splice(i,1)
+            array.push('_')
         }
     }
     return array
