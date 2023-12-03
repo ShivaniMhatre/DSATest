@@ -1,4 +1,5 @@
 function removeDuplicate(arr) {
+    
     let array = []
     for (let i = 0; i < arr.length; i++) {
         let isDuplicate = false
@@ -15,6 +16,6 @@ function removeDuplicate(arr) {
     return array
 }
 
-const arr = [1, 2, 1, 3, 4, 5]
+const arr = "adadd"
 const RemoveDuplicate = removeDuplicate(arr)
 console.log(RemoveDuplicate)
