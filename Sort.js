@@ -9,7 +9,9 @@ function sort(arr) {
                 arr[j] = temp;
             }
         }
-    } return arr
+    } 
+    // return arr[1]
+    return arr
 }
 
 const SortArray = sort(arr);

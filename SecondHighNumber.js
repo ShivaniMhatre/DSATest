@@ -1,5 +1,5 @@
 function SecondHighNumber(arr) {
-    let max =arr[0];
+    let max = arr[0];
     let secondMax = null;
     for (let i = 1; i < arr.length; i++) {
         if (arr[i] > max) {
@@ -13,7 +13,7 @@ function SecondHighNumber(arr) {
     return secondMax
 }
 
-const number = [3,4,6,2,8,1]
+const number = [4, 3, 6, 2, 8, 1]
 const secHighNum = SecondHighNumber(number)
 console.log(secHighNum)
 // secHighNum()
